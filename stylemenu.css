@@ -1,0 +1,100 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("stars.jpg");
+    background-size: 100%;
+    background-color:rgb(207, 45, 45)
+}
+
+.container-navbar {
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-heading{
+    display: flex;
+    height: 5vh;
+    justify-content:center;
+    align-items: center;
+    font-size: 40px;
+    color:rgb(52, 147, 231);
+}
+
+.ul-navbar {
+    display: flex;
+    height:70px;
+    justify-content: center;
+    align-items:center;
+}
+
+.li-navbar{
+    border: 1px solid black;
+    background-color:rgb(8, 165, 113);
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(18, 1, 1);
+    font-size: 30px;
+}
+
+.li-navbar:hover{
+    background-color: rgb(13, 196, 216);
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+
+.a-navbar{
+    color:rgb(15, 0, 0);
+    text-decoration:none;
+    font-weight:600;
+}
+
+.container-content 
+     #costumers {
+        font-family: arial, helvetica, sans-serif;
+        border-collapse: separate;
+        width: 75%;
+        }
+     #costumers td, #costumers th {
+        border: 1px solid #0e0000 ;
+        padding: 8px ;
+        }
+     #costumers tr:nth-last-child(even) {background-color: rgb(2, 184, 2)}
+     #costumers tr:nth-child(even) {background-color: chartreuse;}
+     #costumers tr:hover {background-color: rgb(37, 116, 0);}
+     #costumers th {
+        padding-top:12px ;
+        padding-bottom: 12px ;
+        text-align: left ;
+        background-color:blueviolet ;
+        color:#000000 ;
+        }
+
+.ul-content {
+    background-color:aqua;
+    font-size: 30px;
+    border: 1px solid black;
+    width: 200px;
+    padding: 1px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-footer{
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: georgian;
+    height:10vh;
+    font-size: 10px;
+    color: aliceblue;
+    margin:15px;
+}
+
